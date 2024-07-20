@@ -17,6 +17,7 @@ VRx及VRy為ADC接腳，可以透過STM32 ADC功能讀取數值。以判斷上�
 3.UART(FT232):
 
 透過STM32 TX RX 控制用於及時查看數據及除錯用。
+
 程式方面:
 
 1.貪食蛇主體及食物:透過 struct food_s 及 struct snake_s，判斷食物及貪食蛇狀態，詳細程式於"snake_helperFunc"
